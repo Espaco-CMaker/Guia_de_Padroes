@@ -1,4 +1,4 @@
-# ESPECIFICAÇÃO DE LOGS - Contador de Pessoas v4
+﻿# ESPECIFICAÇÃO DE LOGS - Contador de Pessoas v4
 
 **Versão**: 1.0  
 **Data**: 03/02/2026  
