@@ -81,7 +81,7 @@ Todos os valores padrão são definidos em **um único lugar**:
 
 ```python
 # src/shared/constants.py
-DEFAULT_RTSP_URL = "rtsp://admin:password@192.168.1.100:554/stream"
+DEFAULT_RTSP_URL = "rtsp://<usuario>:<senha>@<host>:554/stream"
 DEFAULT_FPS_RENDER = 5
 DEFAULT_LOG_LEVEL = "INFO"
 CONFIG_SCHEMA_VERSION = 1
@@ -101,7 +101,7 @@ CONFIG_SCHEMA_VERSION = 1
   "app_version": "4.0.9",
   
   "rtsp": {
-    "url": "rtsp://admin:password@192.168.1.100:554/stream",
+    "url": "rtsp://<usuario>:<senha>@<host>:554/stream",
     "timeout_sec": 5,
     "transport": "tcp",
     "history": ["rtsp://...", "rtsp://..."]
@@ -468,7 +468,7 @@ config/
 
 ```python
 # src/shared/constants.py
-DEFAULT_RTSP_URL = "rtsp://admin:password@192.168.1.100:554/stream"
+DEFAULT_RTSP_URL = "rtsp://<usuario>:<senha>@<host>:554/stream"
 DEFAULT_FPS_RENDER = 5
 DEFAULT_LOG_LEVEL = "INFO"
 DEFAULT_AUDIO_VOLUME = 0.8
@@ -703,7 +703,7 @@ def set(self, key: str, value: Any) -> None:
 {
   "schema_version": 1,
   "rtsp": {
-    "url": "rtsp://admin:PASSWORD@192.168.1.100:554/stream",
+    "url": "rtsp://<usuario>:<senha>@<host>:554/stream",
     "timeout_sec": 5
   },
   "_comment": "Copy this file to app_config.json and edit values"

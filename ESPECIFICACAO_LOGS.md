@@ -148,7 +148,6 @@ self.logger.debug(f"Processing latency: {elapsed_ms:.2f}ms")
 
 # ❌ Evitar
 self.logger.debug("Application started")  # Use INFO
-self.logger.debug(f"Password: {password}")  # NUNCA logar senhas
 ```
 
 #### INFO
